@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <!-- Palette: deep indigo, steel gray, amber -->
+  <style>
+    .box { fill:#2b2d42; stroke:#8d99ae; stroke-width:2; rx:8; }
+    .accent { fill:#ffb703; stroke:none; }
+    .text { font-family: Arial, sans-serif; fill:#ffffff; font-size:14px; }
+    .muted { fill:#2b2d42; font-size:12px; }
+  </style>
+  <!-- Ingest -->
+  <rect x="40" y="40" width="220" height="100" class="box"/>
+  <text x="150" y="70" text-anchor="middle" class="text">Data Ingest</text>
+  <text x="150" y="90" text-anchor="middle" class="text">(synthetic, local, api)</text>
+
+  <!-- Modeling -->
+  <rect x="300" y="40" width="220" height="140" class="box"/>
+  <text x="410" y="70" text-anchor="middle" class="text">Modeling</text>
+  <text x="410" y="95" text-anchor="middle" class="text">(PyTorch / sklearn)</text>
+  <text x="410" y="115" text-anchor="middle" class="text">Fairness & mitigation</text>
+
+  <!-- Analysis -->
+  <rect x="580" y="40" width="360" height="180" class="box"/>
+  <text x="760" y="70" text-anchor="middle" class="text">Analysis & Explainability</text>
+  <text x="760" y="95" text-anchor="middle" class="text">SHAP / LIME / Metrics</text>
+  <text x="760" y="115" text-anchor="middle" class="text">Benchmarks & Ablation</text>
+
+  <!-- Delivery / CI -->
+  <rect x="300" y="220" width="220" height="120" class="box"/>
+  <text x="410" y="250" text-anchor="middle" class="text">Delivery</text>
+  <text x="410" y="270" text-anchor="middle" class="text">Reports / Dashboards</text>
+  <text x="410" y="290" text-anchor="middle" class="text">CI / GitHub Actions</text>
+
+  <!-- Arrows -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="6" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2b2d42" />
+    </marker>
+  </defs>
+  <line x1="260" y1="90" x2="300" y2="90" stroke="#8d99ae" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="520" y1="110" x2="580" y2="110" stroke="#8d99ae" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="460" y1="280" x2="520" y2="280" stroke="#8d99ae" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Footer note -->
+  <text x="500" y="500" text-anchor="middle" style="font-family:Arial; font-size:12px; fill:#666;">CATERYA — Physics-inspired architecture: energy (amber) = observables; potential (indigo) = models; scaffold (gray) = infrastructure</text>
+</svg>

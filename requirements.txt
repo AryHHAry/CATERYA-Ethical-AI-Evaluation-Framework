@@ -1,0 +1,16 @@
+numpy
+scipy
+pandas
+scikit-learn
+matplotlib
+torch
+transformers
+shap
+lime
+pyyaml
+pytest
+black
+flake8
+requests
+python-dotenv
+plotly
