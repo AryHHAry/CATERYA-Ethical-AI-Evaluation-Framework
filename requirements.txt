@@ -1,0 +1,41 @@
+# CATERYA - Ethical AI Evaluation Framework
+# Created and maintained by Ary HH (aryhharyanto@proton.me)
+
+# Core dependencies
+numpy>=1.21.0
+scipy>=1.7.0
+pandas>=1.3.0
+
+# Machine Learning (lightweight)
+torch>=2.0.0; sys_platform != 'darwin' or platform_machine != 'arm64'
+torch>=2.0.0; sys_platform == 'darwin' and platform_machine == 'arm64'
+scikit-learn>=1.0.0
+
+# Interpretability
+shap>=0.41.0
+lime>=0.2.0
+
+# Visualization
+plotly>=5.10.0
+matplotlib>=3.5.0
+seaborn>=0.12.0
+
+# Web interface
+streamlit>=1.20.0
+
+# Data handling
+tqdm>=4.60.0
+pyyaml>=6.0
+
+# Development dependencies (optional)
+pytest>=7.0.0
+pytest-cov>=3.0.0
+black>=22.0.0
+flake8>=4.0.0
+isort>=5.10.0
+
+# Optional: Advanced features
+# transformers>=4.20.0  # For HuggingFace model evaluation
+# datasets>=2.0.0  # For benchmark datasets
+# onnx>=1.12.0  # For edge deployment
+# onnxruntime>=1.12.0

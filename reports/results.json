@@ -1,0 +1,32 @@
+{
+  "pillar_scores": {
+    "bias": 0.9169817668420993,
+    "interpretability": 0.8050717525016816,
+    "robustness": 0.8062189983613015,
+    "transparency": 0.7917459515049495
+  },
+  "metric_scores": {
+    "fairness_energy": 0.9935323575187841,
+    "symmetry_index": 1.0,
+    "ethical_energy": 0.7574129430075136,
+    "information_authenticity": 0.7892558525603859,
+    "ethical_coherence": 0.7493957598143999,
+    "feynman_test": 0.8765636451302592,
+    "ethical_horizon": 0.764918315972911,
+    "ethical_gradient": 0.7398289397482989,
+    "human_constant": 0.9139097393626946,
+    "provenance": 0.789947968490108,
+    "moral_curvature": 0.8441776392387953,
+    "contextual_ethics": 0.7411122467859454
+  },
+  "open_score": 82.85305796449522,
+  "metadata": {
+    "pillars": [
+      "bias",
+      "interpretability",
+      "robustness",
+      "transparency"
+    ],
+    "aggregation_method": "geometric_mean"
+  }
+}
